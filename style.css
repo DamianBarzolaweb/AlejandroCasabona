@@ -428,7 +428,7 @@ span {
 
 }
 
-.form-contact {
+#form-contact {
     width: 400px;
     box-shadow: 30px 20px 50px 25px rgba(0, 0, 0, 0.50);
     height: 650px;
@@ -439,7 +439,7 @@ span {
 }
 
 
-.form-contact:hover {
+#form-contact:hover {
     transform: scale(1);
     width: 600px;
 }
@@ -462,7 +462,7 @@ form {
     margin-top: 200px;
 }
 
-.contact .form-contact p {
+.contact #form-contact p {
     padding: 20px;
     text-transform: uppercase;
     font-family: 'Righteous', cursive;
@@ -471,7 +471,7 @@ form {
 }
 
 
-.form-contact a {
+#form-contact a {
     color: blue;
 }
 
@@ -490,7 +490,7 @@ form {
 
 }
 
-.contact .form-contact .otroform .controls {
+.contact #form-contact .otroform .controls {
     padding: 20px;
     margin-bottom: 20px;
     width: 100%;
