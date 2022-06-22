@@ -1,4 +1,4 @@
-var formulario = document.getElementById('form-contact')
+const formulario = document.getElementById('form-contact')
 formulario.addEventListener('submit', function(e){
     e.preventDefault
     if(e.target.name.value == ''){
@@ -19,8 +19,6 @@ formulario.addEventListener('submit', function(e){
     }
     if(e.target.checkbox.value == '#'){
         alert ('Debe estar de acuerdo con los Términos y Condiciones')
-        return
+        
     }
-    
 })
-
